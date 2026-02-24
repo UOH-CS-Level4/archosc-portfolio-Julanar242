@@ -1,0 +1,67 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    font-size: 3rem;
+    color: rgb(255, 0, 179); /* Main portfolio heading */
+}
+
+.name {
+    color: rgb(245, 74, 74); /* Your name in h2 */
+}
+
+.description {
+    color: rgb(58, 2, 11); /* Paragraph describing portfolio */
+}
+
+a {
+    display: block;
+    margin-top: 20px;
+    font-size: 1.5rem;
+    color: blue; /* Links to lab pages */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+.navbar {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* space between links */
+    margin-bottom: 20px;
+}
+
+.navbar a {
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+#darkModeToggle {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.dark-mode {
+    background-color: #222;
+    color: #f0f0f0;
+}
+
+.dark-mode a {
+    color: #00bfff;
+}
